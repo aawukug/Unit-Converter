@@ -23,7 +23,7 @@ convertBtn.addEventListener("click",function(){
     `
 
     convertText3.innerHTML = `
-    ${inputEl.value} kilos = ${(inputEl.value *2.20462).toFixed(3)} pounds | ${inputEl.value} pounds = ${parseFloat(inputEl.value / 2.20462).toFixed(3)} kilos
+    ${inputEl.value} kilos = ${parseFloat(inputEl.value *2.20462).toFixed(3)} pounds | ${inputEl.value} pounds = ${parseFloat(inputEl.value / 2.20462).toFixed(3)} kilos
     `
 });
 
